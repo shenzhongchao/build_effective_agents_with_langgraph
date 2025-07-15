@@ -1,0 +1,14 @@
+[project]
+name = "build-effective-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dashscope>=1.23.8",
+    "ipykernel>=6.29.5",
+    "langchain-anthropic>=0.3.17",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.27",
+    "langgraph>=0.5.2",
+]
